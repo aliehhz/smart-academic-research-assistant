@@ -164,6 +164,3 @@ git diff --staged
 
 - [Google AI for Developers — راهنمای آغاز استفاده از Gemini API و SDK](https://ai.google.dev/gemini-api/docs)
 
----
-
-**توجه:** این README وضعیت و ساختار فعلی پروژه را توصیف می‌کند و با تغییر پیاده‌سازی باید به‌روزرسانی شود.
