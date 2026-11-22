@@ -1,0 +1,23 @@
+# Project: Smart Academic Research Assistant
+An Agentic RAG system built with Python, LangGraph, ChromaDB, and Sentence-Transformers.
+
+## Project Structure & Architecture
+- `config.py`: Centralized project settings, paths, model names, and chunking parameters.
+- `pdf_reader.py`: PDF ingestion and text extraction (page-by-page preservation).
+- `test_run.py`: Script to verify and test individual module functionality.
+- `data/`: Local storage for academic PDF files (do not index or parse repeatedly).
+- `.venv/`: Virtual environment directory (IGNORE completely, never read or scan).
+
+## Guidelines for Cursor AI
+1. **Context Efficiency:** Do not read or re-index files across the entire project unnecessarily. Focus strictly on the referenced file or module.
+2. **Coding Standards:**
+   - Use clean, modular, and PEP8-compliant Python 3.10+ code.
+   - Always include type hints and clear docstrings.
+   - Do not delete or overwrite existing functional logic unless explicitly requested.
+3. **Architecture Approach:** 
+   - Follow an incremental development path: start with linear RAG before moving into LangGraph stateful agents.
+
+
+# Persian Terminal Output Rule
+- Whenever printing Persian strings to the console, always use `format_farsi()` from `utils.formatter`.
+- Never print raw Persian strings directly to avoid BiDi (Right-to-Left) rendering issues in the terminal.

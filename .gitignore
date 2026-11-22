@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Local vector database
+chroma_db/
+
+# Logs
+*.log
+
+data/*
+!data/.gitkeep
+
